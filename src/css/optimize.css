@@ -1,0 +1,628 @@
+﻿ .button-more:hover a{
+        background: #00ffdd;
+        color: black !important;
+    }
+.button-box-active{
+    display: block;
+    margin-top: 30px;
+    border: 1px solid #00ffdd;
+    background: #0a1c34;
+    padding:10px 40px;
+    width:56px;
+    color: #00ffdd !important;
+    font-size: 14px;
+    line-height: 24px;
+}
+.button-box-active:hover{
+    color: black !important;
+    border-radius: 3px;
+    background: #00ffdd;
+}
+  .zc-testpic img{
+  width: 460px;
+  height: 350px;
+}
+
+/*快测定时器样式优化*/
+   .aniBox{
+  width: 1080px;
+  margin: 0 auto;
+  height: 280px;
+}  
+.aniMain{
+  width: 270px;
+  float: left;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.aniMain h3{
+  font-size: 22px;
+  line-height: 35px;
+  height: 35px;
+  margin-top: 30px;
+  color: #222;
+}
+.aniMain p{
+  text-align: center;
+  font-size: 14px;
+  line-height: 25px;
+  width: 200px;
+  margin-left: 35px;
+  opacity: 0;
+}
+.aniPoint{
+  width: 135px;
+  float: left;
+  display: inline-block;
+  height: 180px;
+  position: relative;
+}
+.aniPoint i{
+  position: absolute;
+  top: 82px;
+  width: 15px;
+  height: 15px;
+  background: #808080;
+  border-radius: 50%;
+  display: inline-block;
+}
+.aniPoint i:nth-child(1){
+  left: 30px;
+}
+.aniPoint i:nth-child(2){
+  left: 60px;
+}
+.aniPoint i:nth-child(3){
+  left: 90px;
+}
+.aniImg{
+  width: 270px;
+  height: 180px;
+  margin-bottom: 10px;
+}
+.aniImg1{
+  background: url(../images/per01.png) no-repeat center center;
+  background-size: 111px 112px;
+}
+.aniImg2{
+  background: url(../images/mes01.png) no-repeat center center;
+}
+.aniImg3{
+  background: url(../images/mir01.png) no-repeat center center;
+}
+/*------------------------------*/
+.aniImg1{
+  animation: mymove1 10s infinite;
+  -webkit-animate: mymove1 10s infinite;
+}
+@keyframes mymove1{
+  0% {
+    background: url(../images/per02.png) no-repeat center center;
+    background-size: 105px 120px;
+  }
+  1% {
+    background: url(../images/per02.png) no-repeat center center;
+    background-size: 128px 150px;
+  }
+  20%{
+    background: url(../images/per02.png) no-repeat center center;
+    background-size: 128px 150px;
+  }
+  21%{
+    background: url(../images/per02.png) no-repeat center center;
+    background-size: 128px 150px;
+  }
+  22%{
+    background: url(../images/per01.png) no-repeat center center;
+    background-size: 111px 112px;
+  }
+  100%{
+    background: url(../images/per01.png) no-repeat center center;
+    background-size: 111px 112px;
+  }
+}
+.aniMain1 h3{
+  animation: mymove2 10s infinite;
+  -webkit-animate: mymove2 10s infinite;  
+}
+@keyframes mymove2{
+  0% {
+    margin-top: 30px;
+    color: #222;
+  }
+  1% {
+    margin-top: 0;
+    color: #1695fb;
+  }
+  20%{
+    margin-top: 0;
+    color: #1695fb;
+  }
+  22%{
+    margin-top: 30px;
+    color: #222;
+  }
+  100%{
+    margin-top: 30px;
+    color: #222
+  }
+}
+.aniMain1 p{
+  animation: mymove3 10s infinite;
+  -webkit-animate: mymove3 10s infinite;   
+}
+@keyframes mymove3{
+  0% {
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  20%{
+    opacity: 1;
+  }
+  22%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+/*-----------------------------*/
+.aniImg2{
+  animation: mymove4 10s infinite;
+  -webkit-animate: mymove4 10s infinite;
+  animation-delay:3.5s;
+  -webkit-animation-delay:3.5s; 
+}
+@keyframes mymove4{
+  0% {
+    background: url(../images/mes02.png) no-repeat center center;
+    background-size: 100px 128px;
+  }
+  1% {
+    background: url(../images/mes02.png) no-repeat center center;
+    background-size: 161px 167px;
+  }
+  20%{
+    background: url(../images/mes02.png) no-repeat center center;
+    background-size: 161px 167px;
+  }
+  21%{
+    background: url(../images/mes02.png) no-repeat center center;
+    background-size: 100px 128px;
+  }
+  22%{
+    background: url(../images/mes01.png) no-repeat center center;
+    background-size: 100px 128px;
+  }
+  100%{
+    background: url(../images/mes01.png) no-repeat center center;
+    background-size: 100px 128px;
+  }
+ 
+}
+.aniMain2 h3{
+  animation: mymove5 10s infinite;
+  -webkit-animate: mymove5 10s infinite; 
+  animation-delay:3.5s;
+  -webkit-animation-delay:3.5s;  
+}
+@keyframes mymove5{
+  0% {
+    margin-top: 30px;
+    color: #222;
+  }
+  1% {
+    margin-top: 0;
+    color: #1695fb;
+  }
+  20%{
+    margin-top: 0;
+    color: #1695fb;
+  }
+  22%{
+    margin-top: 30px;
+    color: #222;
+  }
+  100%{
+    margin-top: 30px;
+    color: #222
+  }
+}
+.aniMain2 p{
+  animation: mymove6 10s infinite;
+  -webkit-animate: mymove6 10s infinite;  
+  animation-delay:3.5s;
+  -webkit-animation-delay:3.5s; 
+}
+@keyframes mymove6{
+  0% {
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  20%{
+    opacity: 1;
+  }
+  22%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+/*-----------------------------*/
+.aniImg3{
+  animation: mymove7 10s infinite;
+  -webkit-animate: mymove7 10s infinite;
+  animation-delay:7s;
+  -webkit-animation-delay:7s; 
+}
+@keyframes mymove7{
+  0% {
+    background: url(../images/mir02.png) no-repeat center center;
+    background-size: 90px 128px;
+  }
+  1% {
+    background: url(../images/mir02.png) no-repeat center center;
+    background-size: 148px 168px;
+  }
+  20%{
+    background: url(../images/mir02.png) no-repeat center center;
+    background-size: 148px 168px;
+  }
+  21%{
+    background: url(../images/mir02.png) no-repeat center center;
+    background-size: 90px 128px;
+  }
+  22%{
+    background: url(../images/mir01.png) no-repeat center center;
+   /* background-size: 90px 128px;*/
+  }
+  100%{
+    background: url(../images/mir01.png) no-repeat center center;
+   /* background-size: 90px 128px;*/
+  }
+ 
+}
+.aniMain3 h3{
+  animation: mymove8 10s infinite;
+  -webkit-animate: mymove8 10s infinite; 
+  animation-delay:7s;
+  -webkit-animation-delay:7s;  
+}
+@keyframes mymove8{
+  0% {
+    margin-top: 30px;
+    color: #222;
+  }
+  1% {
+    margin-top: 0;
+    color: #1695fb;
+  }
+  20%{
+    margin-top: 0;
+    color: #1695fb;
+  }
+  22%{
+    margin-top: 30px;
+    color: #222;
+  }
+  100%{
+    margin-top: 30px;
+    color: #222
+  }
+}
+.aniMain3 p{
+  animation: mymove9 10s infinite;
+  -webkit-animate: mymove9 10s infinite;  
+  animation-delay:7s;
+  -webkit-animation-delay:7s; 
+}
+@keyframes mymove9{
+  0% {
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  20%{
+    opacity: 1;
+  }
+  22%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+.aniPoint1 i:nth-child(1){
+  animation: mymove10 10s infinite;
+  -webkit-animate: mymove10 10s infinite;  
+  animation-delay:2s;
+  -webkit-animation-delay:2s;   
+}
+@keyframes mymove10{
+  0% {
+    width: 15px;
+    height: 15px;
+    background: #1695fb;
+    left: 30px;
+    top: 82px;
+  }
+  2.5% {
+    width: 21px;
+    height: 21px;
+    background: #1695fb;
+    left: 27px;
+    top: 79px;
+  }
+  5%{
+    width: 15px;
+    height: 15px;
+    background: #808080;
+    left: 30px;
+    top: 82px;
+  }
+  100%{
+    width: 15px;
+    height: 15px;
+    background: #808080;
+    left: 30px;
+    top: 82px;
+  }
+}
+.aniPoint1 i:nth-child(2){
+  animation: mymove11 10s infinite;
+  -webkit-animate: mymove11 10s infinite;  
+  animation-delay:2.5s;
+  -webkit-animation-delay:2.5s;   
+}
+@keyframes mymove11{
+  0% {
+    width: 15px;
+    height: 15px;
+    background: #1695fb;
+    left: 60px;
+    top: 82px;
+  }
+  2.5% {
+    width: 21px;
+    height: 21px;
+    background: #1695fb;
+    left: 57px;
+    top: 79px;
+  }
+  5%{
+    width: 15px;
+    height: 15px;
+    background: #808080;
+    left: 60px;
+    top: 82px;
+  }
+  100%{
+    width: 15px;
+    height: 15px;
+    background: #808080;
+    left: 60px;
+    top: 82px;
+  }
+}
+.aniPoint1 i:nth-child(3){
+  animation: mymove12 10s infinite;
+  -webkit-animate: mymove12 10s infinite;  
+  animation-delay:3s;
+  -webkit-animation-delay:3s;   
+}
+@keyframes mymove12{
+  0% {
+    width: 15px;
+    height: 15px;
+    background: #1695fb;
+    left: 90px;
+    top: 82px;
+  }
+  2.5% {
+    width: 21px;
+    height: 21px;
+    background: #1695fb;
+    left: 87px;
+    top: 79px;
+  }
+  5%{
+    width: 15px;
+    height: 15px;
+    background: #808080;
+    left: 90px;
+    top: 82px;
+  }
+  100%{
+    width: 15px;
+    height: 15px;
+    background: #808080;
+    left: 90px;
+    top: 82px;
+  }
+}
+/*----------------------------*/
+.aniPoint2 i:nth-child(1){
+  animation: mymove13 10s infinite;
+  -webkit-animate: mymove13 10s infinite;  
+  animation-delay:5.5s;
+  -webkit-animation-delay:5.5s;   
+}
+@keyframes mymove13{
+  0% {
+    width: 15px;
+    height: 15px;
+    background: #1695fb;
+    left: 30px;
+    top: 82px;
+  }
+  2.5% {
+    width: 21px;
+    height: 21px;
+    background: #1695fb;
+    left: 27px;
+    top: 79px;
+  }
+  5%{
+    width: 15px;
+    height: 15px;
+    background: #808080;
+    left: 30px;
+    top: 82px;
+  }
+  100%{
+    width: 15px;
+    height: 15px;
+    background: #808080;
+    left: 30px;
+    top: 82px;
+  }
+}
+.aniPoint2 i:nth-child(2){
+  animation: mymove14 10s infinite;
+  -webkit-animate: mymove14 10s infinite;  
+  animation-delay:6s;
+  -webkit-animation-delay:6s;   
+}
+@keyframes mymove14{
+  0% {
+    width: 15px;
+    height: 15px;
+    background: #1695fb;
+    left: 60px;
+    top: 82px;
+  }
+  2.5% {
+    width: 21px;
+    height: 21px;
+    background: #1695fb;
+    left: 57px;
+    top: 79px;
+  }
+  5%{
+    width: 15px;
+    height: 15px;
+    background: #808080;
+    left: 60px;
+    top: 82px;
+  }
+  100%{
+    width: 15px;
+    height: 15px;
+    background: #808080;
+    left: 60px;
+    top: 82px;
+  }
+}
+.aniPoint2 i:nth-child(3){
+  animation: mymove15 10s infinite;
+  -webkit-animate: mymove15 10s infinite;  
+  animation-delay:6.5s;
+  -webkit-animation-delay:6.5s;   
+}
+@keyframes mymove15{
+  0% {
+    width: 15px;
+    height: 15px;
+    background: #1695fb;
+    left: 90px;
+    top: 82px;
+  }
+  2.5% {
+    width: 21px;
+    height: 21px;
+    background: #1695fb;
+    left: 87px;
+    top: 79px;
+  }
+  5%{
+    width: 15px;
+    height: 15px;
+    background: #808080;
+    left: 90px;
+    top: 82px;
+  }
+  100%{
+    width: 15px;
+    height: 15px;
+    background: #808080;
+    left: 90px;
+    top: 82px;
+  }
+}
+.newIntem03-introduce02{
+        overflow: hidden;
+        position: relative;
+        background: none;
+    }
+    .newIntem03-introduce02 h4, .newIntem03-introduce02 ul{
+        position: relative;
+        z-index: 2;
+    }
+    .newIntem03-introduce02 .bg{
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+        transition: all .2s ease-in-out;
+        -webkit-transition: all .2s ease-in-out;    
+    }
+    .newIntem03-introduce02 .bg img{
+        width: 100%;
+        height: auto;
+    }
+    .newIntem03-introduce02.show01 .bg-01, .newIntem03-introduce02.show02 .bg-02{
+        transition: all 1s ease-in-out;
+        -webkit-transition: all 1s ease-in-out; 
+    }
+    .newIntem03-introduce02.show01 .bg-01{
+        transform: translate(0, 150px);
+        opacity: 1;
+    }
+    .newIntem03-introduce02.show01 .bg-02{
+        opacity: 0;
+    }
+    .newIntem03-introduce02.show02 .bg-02{
+        transform: translate(0, 150px);
+        opacity: 1;
+    }
+    .newIntem03-introduce02.show02 .bg-01{
+        opacity: 0;
+    }
+    .zc-testpic img{
+      width: 460px;
+      height: 350px;
+    }
+
+
+  .header .tool .Login-active {
+      padding: 2px 10px
+  }
+
+  .container .logo .Login-active {
+      padding: 2px 10px
+  }
+
+  .header .tool .Login-active:hover {
+      padding: 2px 10px;
+      border-radius: 3px;
+      background: #0fd;
+      color: #000;
+      text-decoration: none
+  }
+
+  .new-change511 {
+      display: block;
+      float: left;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      width: 110px
+  }

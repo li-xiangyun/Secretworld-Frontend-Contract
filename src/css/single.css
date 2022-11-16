@@ -1,0 +1,68 @@
+ul.anticons-list {
+    margin: 0px 0;
+    padding-left: 500px;
+    overflow: hidden;
+    direction: ltr;
+    list-style: none;
+}
+ul.anticons-list li .anticon-class {
+    display: block;
+    font-family: Lucida Console,Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;
+    white-space: nowrap;
+    text-align: center;
+    transform: scale(.83);
+}
+
+ul.anticons-list li .anticon-class .ant-badge {
+    transition: color .3s ease-in-out;
+}
+
+ul.anticons-list li {
+    position: relative;
+    float: left;
+    width: 16.66%;
+    height: 110px;
+    margin: 0px 20px;
+    padding: 10px 0 0;
+    overflow: hidden;
+    color: #555;
+    text-align: center;
+    list-style: none;
+    background-color: inherit;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: color .3s ease-in-out,background-color .3s ease-in-out;
+}
+
+.ant-badge {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgb(218 208 208 / 85%);
+    font-size: 16px;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    list-style: none;
+    -webkit-font-feature-settings: 'tnum';
+    font-feature-settings: 'tnum';
+    position: relative;
+    display: inline-block;
+    line-height: 1;
+}
+
+ul.anticons-list li:hover {
+    color: #fff;
+    background-color: #1890ff;
+}
+
+ul.anticons-list li .anticon {
+    margin: 12px 0 8px;
+    font-size: 36px;
+    transition: transform .3s ease-in-out;
+    will-change: transform;
+    color: wheat;
+}
+
+ul.anticons-list li:hover .anticon {
+    transform: scale(1.4);
+}

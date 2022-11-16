@@ -1,0 +1,111 @@
+/* PAGE */
+
+body,
+.pure-g [class*=pure-u] {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Oswald', 'Arial Narrow', sans-serif;
+}
+
+code {
+  display: block;
+  margin: 20px 0 15px 0;
+  padding: 10px;
+  background: #eee;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 45px 20px;
+}
+
+.container2 {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 15px 56px;
+}
+
+.pure-button-primary {
+  background-color: #0c1a2b;
+}
+
+.pure-button-primary:hover {
+  background-color: #233e5e;
+}
+
+.pure-form input[type="text"]:focus {
+  border-color: #0c1a2b;
+}
+
+/* NAVBAR */
+
+.navbar {
+  position: fixed;
+  padding: 5px;
+  background: #0c1a2b;
+  font-family: 'Oswald', 'Arial Narrow', sans-serif;
+}
+
+.navbar a {
+  color: #fff;
+}
+
+.navbar a:active,
+.navbar a:focus,
+.navbar a:hover {
+  background: #233e5e;
+}
+
+.navbar .pure-menu-heading {
+  font-weight: bold;
+  text-transform: none;
+}
+
+.navbar .navbar-right {
+  float: right;
+}
+
+.navbar .uport-logo {
+  height: 16px;
+  margin-right: 10px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: rgba(0, 0, 0, .3);
+  margin: 10px;
+}
+.bg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #0b1424 url("../images/index-banner.png") no-repeat center 100%;
+  background-size:cover;
+  background-attachment:fixed;
+  margin: 0 auto;
+}
+
+.jumbotron .rt{
+  float:right; 
+  width:100px;
+  height: 10px;
+}
+
+.xtx-service a::after {
+  content: '';
+  display: inline-block;
+  width: 58px;
+  height: 58px;
+  margin-right: 19px;
+  /* ps */
+  /* background-color: red; */
+  background: url('../images/box-img-sm.png') 0 0;
+  /* 垂直对齐方式 */
+  vertical-align: middle;
+}
